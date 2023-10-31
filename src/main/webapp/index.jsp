@@ -19,11 +19,7 @@
         greeting = "Good afternoon";
     }
 
-    // Get the user's name from a request parameter (optional)
-    String name = request.getParameter("name");
-    if (name == null || name.isEmpty()) {
-        name = "John";  // Default name if not provided
-    }
+    String name = "Sami";
 %>
 
 <h1><%= greeting %>, <%= name %>, Welcome to COMP367</h1>
