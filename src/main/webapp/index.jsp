@@ -8,7 +8,7 @@
 <body>
 
 <%
-    // Java code to determine the time of day
+    //determine the time of day
     java.util.Calendar calendar = java.util.Calendar.getInstance();
     int hour = calendar.get(java.util.Calendar.HOUR_OF_DAY);
     String greeting = "";
